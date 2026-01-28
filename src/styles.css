@@ -80,6 +80,14 @@ form {
   text-justify: auto;
   text-shadow: #231557;
   color: rgb(15, 15, 15);
+  font-weight: 24px;
+  border: 4px solid rgb(22, 19, 19);
+  border-radius: 100px;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 footer {
