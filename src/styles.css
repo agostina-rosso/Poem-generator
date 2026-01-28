@@ -3,6 +3,14 @@ body {
   text-align: center;
 }
 
+.poem {
+  text-align: center;
+  text-justify: auto;
+}
+
+footer {
+  font-size: 11px;
+}
 .coder {
   color: rgb(246, 160, 229);
 }
