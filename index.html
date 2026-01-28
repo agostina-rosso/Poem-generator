@@ -20,6 +20,7 @@
 </header>
 
 <main>
+    <div class="form-container">
 <form id="poem-generator-form">
 <input 
 type="text" 
@@ -33,8 +34,9 @@ id="user-instructions"
 <input type="submit" class="submit-button" />
 </form>
 <h5>hints: love, flowers, nature...</h5>
-<div class="poem" id="poem"></div>
+<div class="poem hidden" id="poem"></div>
 </main>
+
 <footer>
         AI project coded by
         <a
@@ -46,7 +48,9 @@ id="user-instructions"
         >
         hosted by <a href="https://github.com/agostina-rosso?tab=repositories" target="_blank">GitHub</a> on
         <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-      </footer>
+    </footer>
+    </div>
+    
     <script src="src/index.js"></script>
     <body>
 </html>
