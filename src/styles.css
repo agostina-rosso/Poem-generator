@@ -75,7 +75,12 @@ form {
   background-color: #9000ff;
   transition-delay: 5ms;
 }
-
+H5 {
+  color: black;
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 footer {
   font-size: 11px;
 }
