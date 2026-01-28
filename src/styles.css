@@ -1,6 +1,17 @@
 body {
-  background: rgb(247, 79, 79);
+  background: #cf9ef0;
+  background: linear-gradient(
+    90deg,
+    rgba(207, 158, 240, 1) 0%,
+    rgba(232, 70, 189, 0.86) 50%,
+    rgba(219, 107, 94, 1) 100%
+  );
   text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
 }
 
 .poem {
