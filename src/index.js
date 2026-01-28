@@ -3,7 +3,7 @@ function displayPoem(response) {
     strings: response.data.answer,
     autostart: true,
     delay: 1,
-    cursor: "💗",
+    cursor: "",
   });
 }
 
