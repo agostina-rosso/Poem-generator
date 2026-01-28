@@ -41,9 +41,10 @@ body {
 }
 
 form {
-  padding: 30px;
+  padding: 10px;
   display: flex;
-  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-left: 175px;
 }
 .instructions {
   padding: 4px;
@@ -57,9 +58,28 @@ form {
   margin-left: 150px;
   display: flex;
 }
+.button {
+  color: rgb(245, 8, 178);
+  padding: 2px;
+  margin-left: 5px;
+  width: 10%;
+  border: 2px solid rgb(22, 19, 19);
+  border-radius: 12px;
+  font-size: 14px;
+  text-decoration: bold;
+  background-color: #3300ff;
+  display: flex;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #9000ff;
+  transition-delay: 5ms;
+}
 .poem {
   text-align: center;
   text-justify: auto;
+  text-shadow: #231557;
+  color: rgb(15, 15, 15);
 }
 
 footer {
