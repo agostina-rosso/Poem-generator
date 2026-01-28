@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="src/styles.css"></style>
-    <title>AI Poem generator</title>
+   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="src/styles.css"></style>
+   <title>AI Poem generator</title>
   </head>
   <body>
     <header>
@@ -18,63 +19,19 @@
 </header>
 
 <main>
-<form>
+<form id="poem-generator-form">
 <input type="text" placeholder="Enter the topic of your poem"
 autofocus
 required
 autocomplete="off"
 class="instructions"
 />
-<input type="submit" class="button" />
+<input type="submit" class="submit-button" />
 <br>
 <br>
 </br>
 </form>
-<div class="poem">
-    <i><b>ALLA LUNA</b>
-        <br>
-    </br>
-    O graziosa luna, io mi rammento
-    <br>      
-Che, or volge l'anno, sovra questo colle
-<br>
-Io venia pien d'angoscia a rimirarti:
-<br>
-E tu pendevi allor su quella selva
-<br>
-Siccome or fai, che tutta la rischiari.
-<br>
-Ma nebuloso e tremulo dal pianto
-<br>
-Che mi sorgea sul ciglio, alle mie luci
-<br>
-Il tuo volto apparia, che travagliosa
-<br>
-Era mia vita: ed è, né cangia stile,
-<br>
-O mia diletta luna. E pur mi giova    
-<br>
-La ricordanza, e il noverar l'etate
-<br>
-Del mio dolore. Oh come grato occorre
-<br>
-Nel tempo giovanil, quando ancor lungo
-<br>
-La speme e breve ha la memoria il corso,
-<br>
-Il rimembrar delle passate cose,     
-<br>  
-Ancor che triste, e che l'affanno duri!
-</i>
-<br>
-</br>
-Giacomo Leopardi
-<br>
-<br>
-<br>
-<br>
-<br>
-</br>
+<div class="poem" id="poem">
 </div>
 </main>
 <footer>
