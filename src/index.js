@@ -21,7 +21,7 @@ function generatePoem(event) {
   poemElement.classList.remove("hidden");
   poemElement.innerHTML = `<div class="generating">⏳ Generating poem about ${instructionsInput.value}</div>`;
 
-  axios.get(apiURL).then(displayPoem);
+  axios.get(apiUrl).then(displayPoem);
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
